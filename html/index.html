@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My first webpage</title>
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100px;
+        float: left;
+        margin-right: 15px;
+      }
+      video {
+        width: 400px;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+      em {
+        color: red;
+        font-style: normal;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+      span {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/rocky.jpg" alt="An image of Rocky!" />
+    <h1>THIS IS THE FIRST HEADING!</h1>
+    <h2>HTML</h2>
+    <p>This is about &lt;HTML&gt;! &copy;</p>
+    <a href="company/about.html">About ME</a>
+    <a href="images/screenshot.png" download>My Photo</a>
+    <a href="#section2">Section 2</a>
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="mailto:charmainekwok@astri.org">Email Me</a>
+    <h3>Code</h3>
+    <h3>Exercise</h3>
+    <h2>CSS</h2>
+    <p>This is about CSS!</p>
+    <p class="username">@charmainekwok</p>
+    <p>Hello <em>Everyone</em> !</p>
+    <h2>Section1</h2>
+    <img src="images/elvis.jpg" alt="Elvis graffiti" />
+    <p>
+      I love Elvis! Elvis is cool!
+      <br /><br />Wise men say <br />Only fools rush in <br />But I can't help
+      falling in love with you <br />Shall I stay? <br />Would it be a sin
+      <br />If I can't help falling in love with you?
+      <br /><br /><br /><br /><br />
+    </p>
+    <h2 id="section2">Section2</h2>
+    <video controls autoplay loop src="videos/tennis_video.mp4">
+      Your browser doesn't support videos.
+    </video>
+    <p>
+      I love tennis.
+      <br />My favourite tennis player is Rafa! <br /><br /><br /><br /><br />
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Stuff</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Singer</td>
+          <td>Charmaine Fong</td>
+        </tr>
+
+        <tr>
+          <td>Actor</td>
+          <td>Leslie</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>2</th>
+        </tr>
+      </tfoot>
+    </table>
+    <a href="#">Jump to top</a>
+  </body>
+</html>
